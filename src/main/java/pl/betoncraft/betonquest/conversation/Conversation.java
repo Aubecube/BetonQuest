@@ -427,6 +427,13 @@ public class Conversation implements Listener {
 	public ConversationIO getIO() {
 		return inOut;
 	}
+	
+	/**
+	 * @return the language of the player
+	 */
+	public String getLanguage() {
+	    return language;
+	}
 
 	/**
 	 * @return the data of the conversation

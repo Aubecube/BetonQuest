@@ -38,6 +38,7 @@ import org.bukkit.inventory.meta.SkullMeta;
 import org.bukkit.scheduler.BukkitRunnable;
 
 import pl.betoncraft.betonquest.BetonQuest;
+import pl.betoncraft.betonquest.config.Config;
 import pl.betoncraft.betonquest.utils.PlayerConverter;
 import pl.betoncraft.betonquest.utils.Utils;
 
@@ -134,7 +135,8 @@ public class InventoryConvIO implements Listener, ConversationIO {
 		int rows = (int) Math.floor(options.size() / 7);
 		rows++;
 		// this itemstack represents slots in the inventory
-		inv = Bukkit.createInventory(null, 9 * rows, "NPC");
+		String title = Config.getMessage(conv.getLanguage(), "conversation_inventory_title", new String[] {npcName});
+		inv = Bukkit.createInventory(null, 9 * rows, title);
 		inv.setContents(new ItemStack[9 * rows]);
 		ItemStack[] buttons = new ItemStack[9 * rows];
 		// set the NPC head
