@@ -2,6 +2,7 @@ pl:
   conversation_prefix: '&2[&9{1}&2] '
   conversation_start: '&e====&bRozpoczales rozmowe z {1}!&e===='
   conversation_end: '&e====&bZakonczyles rozmowe z {1}!&e===='
+  conversation_inventory_title: '&eNPC - &o{1}'
   no_permission: '&cNie masz permisji.'
   new_journal_entry: '&e*&bDziennik zostal zaktualizowany!&e*'
   journal_title: Dziennik
@@ -43,6 +44,7 @@ en:
   conversation_prefix: '&2[&9{1}&2] '
   conversation_start: '&e====&bConversation with {1} started!&e===='
   conversation_end: '&e====&bConversation with {1} finished!&e===='
+  conversation_inventory_title: '&eNPC - &o{1}'
   no_permission: '&cYou don''t have permission.'
   new_journal_entry: '&e*&bJournal updated!&e*'
   journal_title: Journal
@@ -85,6 +87,7 @@ de:
   conversation_prefix: '&2[&9{1}&2] '
   conversation_start: '&e====&bGespraech mit {1} begonnen!&e===='
   conversation_end: '&e====&bGespraech mit {1} beendet!&e===='
+  conversation_inventory_title: '&eNPC - &o{1}'
   no_permission: '&cDu hast keinen Zugriff auf diesen Befehl.'
   new_journal_entry: '&e*&bTagebuch aktualisiert!&e*'
   journal_title: Tagebuch
@@ -127,6 +130,7 @@ fr:
   conversation_prefix: '&2[&9{1}&2] '
   conversation_start: '&e====&bLa conversation avec {1} est engagee!&e===='
   conversation_end: '&e====&bLa conversation avec {1} est terminee!&e===='
+  conversation_inventory_title: '&ePNJ - &o{1}'
   no_permission: '&cVous n''avez pas la permission.'
   new_journal_entry: '&e*&bLe journal a ete mis a jour!&e*'
   journal_title: 'Journal'
@@ -169,6 +173,7 @@ cn:
   conversation_prefix: "&2[&9{1}&2] "
   conversation_start: "&e====&b\u4e0e{1}\u5bf9\u8bdd\u4e2d&e===="
   conversation_end: "&e====&b\u4e0e{1}\u7684\u5bf9\u8bdd\u5df2\u7ecf\u7ed3\u675f&e===="
+  conversation_inventory_title: '&eNPC - &o{1}'
   no_permission: "&c\u4f60\u6ca1\u6709\u76f8\u5e94\u7684\u6743\u9650."
   new_journal_entry: "&e*&b\u4f60\u7684\u7b14\u8bb0\u5df2\u7ecf\u66f4\u65b0!&e*"
   journal_title: "\u4efb\u52a1\u7b14\u8bb0"
@@ -210,6 +215,7 @@ es:
   conversation_prefix: '&2[&9{1}&2] '
   conversation_start: '&e====&bLa conversacion con {1} ha comenzado.&e===='
   conversation_end: '&e====&bLa conversacion con {1} ha terminado.&e===='
+  conversation_inventory_title: '&eNPC - &o{1}'
   no_permission: '&cNo tienes permiso para eso.'
   new_journal_entry: '&e*&bTu diario se ha actualizado.&e*'
   journal_title: Diario
@@ -251,6 +257,7 @@ nl:
   conversation_prefix: '&2[&9{1}&2] '
   conversation_start: '&e====&bGesprek met {1} begonnen!&e===='
   conversation_end: '&e====&bGesprek met {1} afgerond!&e===='
+  conversation_inventory_title: '&eNPC - &o{1}'
   no_permission: '&cJe hebt geen toestemming.'
   new_journal_entry: '&e*&bDagboek is bijgewerkt!&e*'
   journal_title: Dagboek
@@ -292,6 +299,7 @@ it:
   conversation_prefix: '&2[&9{1}&2] '
   conversation_start: '&e====&bConversazione con {1} iniziata!&e===='
   conversation_end: '&e====&bConversazione con {1} finita!&e===='
+  conversation_inventory_title: '&eNPC - &o{1}'
   no_permission: '&cNon hai il permesso.'
   new_journal_entry: '&e*&bDiario aggiornato!&e*'
   journal_title: Diario
@@ -334,6 +342,7 @@ hu:
   conversation_prefix: '&2[&9{1}&2] '
   conversation_start: '&e====&bBeszélgetés a következővel {1} elkezdve!&e===='
   conversation_end: '&e====&bBeszélgetés a következővel {1} befejezve!&e===='
+  conversation_inventory_title: '&eNPC - &o{1}'
   no_permission: '&cNincs jogod ehhez.'
   new_journal_entry: '&e*&bA folyóirat frissítve!&e*'
   journal_title: Folyóirat

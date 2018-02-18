@@ -443,6 +443,13 @@ public class Conversation implements Listener {
 	}
 	
 	/**
+	 * @return the language of the player
+	 */
+	public String getLanguage() {
+	  return language;
+	}
+	
+	/**
 	 * @return the ID of the conversation
 	 */
 	public String getID() {
